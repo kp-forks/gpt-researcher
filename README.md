@@ -26,7 +26,7 @@
 
 # 🔎 GPT Researcher
 
-**GPT Researcher is an autonomous agent designed for comprehensive online research on a variety of tasks.** 
+**GPT Researcher is an autonomous agent designed for comprehensive web and local research on any given task.** 
 
 The agent can produce detailed, factual and unbiased research reports, with customization options for focusing on relevant resources and outlines. Inspired by the recent [Plan-and-Solve](https://arxiv.org/abs/2305.04091) and [RAG](https://arxiv.org/abs/2005.11401) papers, GPT Researcher addresses issues of misinformation, speed, determinism and reliability, offering a more stable performance and increased speed through parallelized agent work, as opposed to synchronous operations.
 
@@ -186,7 +186,7 @@ export DOC_PATH="./my-docs"
 ```
 
 Step 2: 
- - If you're running the frontend app on localhost:8000, simply select "My Documents" from the the "Report Source" Dropdown Options.
+ - If you're running the frontend app on localhost:8000, simply select "My Documents" from the "Report Source" Dropdown Options.
  - If you're running GPT Researcher with the [PIP package](https://docs.tavily.com/docs/gpt-researcher/pip-package), pass the `report_source` argument as "local" when you instantiate the `GPTResearcher` class [code sample here](https://docs.gptr.dev/docs/gpt-researcher/context/tailored-research).
 
 
